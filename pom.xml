@@ -41,7 +41,7 @@
         <aliyunsdk.version>3.2.8</aliyunsdk.version>
         <dysmsapi.version>1.0.0</dysmsapi.version>
         <javamail.version>1.4.7</javamail.version>
-        <fastjson.version>1.1.37</fastjson.version>
+        <fastjson.version>1.2.25</fastjson.version>
         <fastjsonprovider.version>0.3.1</fastjsonprovider.version>
         <oracle.version>11.2.0.1.0</oracle.version>
         <quartz.version>2.2.1</quartz.version>
