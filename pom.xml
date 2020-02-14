@@ -24,7 +24,7 @@
         <logging.version>1.1.1</logging.version>
         <springdataredis.version>1.4.1.RELEASE</springdataredis.version>
         <activemq.version>5.14.0</activemq.version>
-        <shiro.version>1.2.2</shiro.version>
+        <shiro.version>1.3.2</shiro.version>
         <springdatajpa.version>1.10.5.RELEASE</springdatajpa.version>
         <jedis.version>2.6.2</jedis.version>
         <poi.version>3.11</poi.version>
@@ -63,20 +63,18 @@
         <wxpay.version>0.0.3</wxpay.version>
         <fileupload.version>1.3.1</fileupload.version>
         <commons-pool2.version>2.4.2</commons-pool2.version>
-        <!--<log4j.version>1.2.15</log4j.version>-->
+        <log4j.version>1.2.17</log4j.version>
         <mapper.version>2.3.4</mapper.version>
         <pagehelper.version>3.7.5</pagehelper.version>
         <jsqlparser.version>0.9.5</jsqlparser.version>
-        <log4j.version>2.8.1</log4j.version>
+        <log4j-api.version>2.8.1</log4j-api.version>
+        <log4j-core.version>2.8.1</log4j-core.version>
         <apiguardian.version>1.1.0</apiguardian.version>
     </properties>
 
 
     <!--管理依赖--><!--===============================================================================================-->
     <dependencyManagement>
-
-
-
         <dependencies>
             <!-- solrj -->
             <dependency>
@@ -103,11 +101,16 @@
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-core</artifactId>
-                <version>${log4j.version}</version>
+                <version>${log4j-core.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-api</artifactId>
+                <version>${log4j-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
             </dependency>
 
@@ -129,7 +132,6 @@
                 <artifactId>jsqlparser</artifactId>
                 <version>${jsqlparser.version}</version>
             </dependency>
-
 
             <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-pool2 -->
             <dependency>
@@ -335,6 +337,12 @@
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-log4j12</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
                 <version>${slf4j.version}</version>
             </dependency>
             <dependency>
