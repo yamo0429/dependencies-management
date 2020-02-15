@@ -6,6 +6,7 @@
     <groupId>com.ss.maven</groupId>
     <artifactId>dependencies-management</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <description>负责所有工程依赖及其版本的管理</description>
 
     <!--管理依赖版本-->
