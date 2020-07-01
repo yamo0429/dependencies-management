@@ -71,7 +71,7 @@
         <pagehelper.version>3.7.5</pagehelper.version>
         <jsqlparser.version>0.9.5</jsqlparser.version>
         <log4j-api.version>2.8.1</log4j-api.version>
-        <log4j-core.version>2.8.1</log4j-core.version>
+        <log4j-core.version>2.13.2</log4j-core.version>
         <apiguardian.version>1.1.0</apiguardian.version>
     </properties>
 
