@@ -47,7 +47,7 @@
         <fastjson.version>1.1.37</fastjson.version>
         <fastjsonprovider.version>0.3.1</fastjsonprovider.version>
         <oracle.version>11.2.0.1.0</oracle.version>
-        <quartz.version>2.2.1</quartz.version>
+        <quartz.version>2.3.2</quartz.version>
         <elasticsearch.version>2.4.0</elasticsearch.version>
         <springdataelasticsearch.version>2.0.4.RELEASE</springdataelasticsearch.version>
         <joda-time.version>2.9.4</joda-time.version>
