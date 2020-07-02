@@ -20,7 +20,7 @@
         <dom4j.version>1.6.1</dom4j.version>
         <beanutils.version>1.9.0</beanutils.version>
         <dbutils.version>1.4</dbutils.version>
-        <mysql.version>5.1.6</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <spring.version>4.2.8.RELEASE</spring.version>
         <spring.jdbc.version>4.3.7.RELEASE</spring.jdbc.version>
         <slf4j.version>1.7.12</slf4j.version>
